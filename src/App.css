@@ -11,7 +11,7 @@ body {
 .container {
   background-color: rgba(0, 0, 0, 0.662);
   border-radius: 5px;
-  height: 96vh;
+  height: 95vh;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   padding: 5px;
@@ -40,7 +40,7 @@ body {
   padding: 5px 10px;
   font-size: 0.8rem;
   text-align: center;
-  width: 100%;
+  width: 98%;
 }
 
 .grid-item.wheel {
@@ -48,10 +48,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 400px;
+  min-height: 300px;
     aspect-ratio: 1;
     margin: auto;
-    max-width: 400px;
+    max-width: 300px;
 }
 .grid-item.direction {
   display: flex;

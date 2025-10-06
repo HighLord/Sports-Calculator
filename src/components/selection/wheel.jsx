@@ -44,7 +44,7 @@ function Wheel({ data, dataKey, onSelect, selectedValue }) {
 			// Position each item around the circle
 			option.style.transform = `
 				rotate(${optionAngle}deg)
-				translate(0, -150px)
+				translate(0, -140px)
 				rotate(${-optionAngle}deg)
 			`;
 
