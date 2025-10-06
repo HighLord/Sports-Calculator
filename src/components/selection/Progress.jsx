@@ -1,5 +1,5 @@
 // src/components/selection/Progress.jsx
-import "./Progress.css";
+import "./progress.css";
 import { useEffect, useState, useRef } from "react";
 import { sortGame } from "../../api/sortGames";
 import { predict } from "../../algorithms/predict";
