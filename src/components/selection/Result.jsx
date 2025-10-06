@@ -2,7 +2,7 @@ import "./result.css";
 import { useEffect, useState, useRef } from "react";
 import { bookGame } from "../../api/booking";
 
-export default function Result ( { dataKing, saveGame, finalSelection } )
+export default function Result ( { dataKing, finalSelection } )
 {
     const { sportsType, sportsOdd } = finalSelection || {};
     const [bookingResults, setBookingResults] = useState( [] );
