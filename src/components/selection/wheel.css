@@ -1,0 +1,198 @@
+.circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid rgb(12, 46, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.option {
+    position: absolute;
+    padding: 8px 12px;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(12, 46, 218);
+    border-radius: 15px;
+    font-size: 9px;
+    cursor: pointer;
+    transform-origin: 50% 150px;
+    font-weight: bold;
+    transform: scale(1);
+    box-shadow:
+            -2px -2px 8px rgba(199, 199, 199, 0.593),
+            8px 8px 20px rgba(0, 0, 0, 0.8);
+    transition: transform 1s ease, background-color 1s ease;
+}
+
+.option:hover {
+    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.2) inset, 15px 15px 15px rgba(0, 0, 0, 0.1) inset,
+            -5px -5px 5px rgba(255, 255, 255, 0.2) inset, 15px 15px 15px rgba(0, 0, 0, 0.1) inset;
+}
+
+.option.selected {
+    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.2) inset, 15px 15px 15px rgba(0, 0, 0, 0.1) inset,
+            -5px -5px 5px rgba(255, 255, 255, 0.2) inset, 15px 15px 15px rgba(0, 0, 0, 0.1) inset;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.3) !important;
+}
+/*
+
+.innerContainer2 {
+    background-color: rgba(198, 42, 42, 0);
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: display 1s ease-out;
+}
+
+.outer-circle {
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(green 0%,
+            green 0%,
+            rgba(55, 155, 83, 0.126) 0%,
+            rgb(255, 255, 255) 100%);
+}
+
+.inner-circle {
+    position: relative;
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+    background: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fill {
+    background-color: rgba(135, 135, 135, 0);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transition: height .5s ease-out;
+}
+
+.ripple {
+    position: relative;
+    width: 200%;
+    height: 140%;
+    left: -50%;
+    background: rgba(93, 86, 227, 0.203);
+    border-radius: 50%;
+    animation: ripple-animation 3s infinite ease-in-out;
+}
+
+@keyframes ripple-animation {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.center-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.527);
+    z-index: 3;
+}
+
+.innerContainer3 {
+    background-color: rgba(255, 255, 255, 0);
+    height: 15%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.sticky {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 310px;
+    margin: auto;
+}
+
+.search-container {
+    background-color: #161cc5a1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-container input[type=otp] {
+    box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.2) inset, 15px 15px 15px rgba(0, 0, 0, 0.1) inset,
+        -5px -5px 5px rgba(255, 255, 255, 0.2) inset, 15px 15px 15px rgba(0, 0, 0, 0.1) inset;
+    padding: 10px;
+    margin-top: 2px;
+    font-size: 13px;
+    border: none;
+    width: 30%;
+    padding-right: 40px;
+}
+
+.search-container button {
+    float: right;
+    width: 35px;
+    padding: 8px 0px;
+    margin: 2px 5px;
+    background-color: #ddd;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-container button:hover {
+    background: rgb(82, 57, 207);
+}
+
+.highlight {
+    background-color: rgb(0, 255, 76);
+}
+
+#resultCover {
+    margin: 5px 0px 0px 0px;
+}
+
+#count {
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    width: 40px;
+    background-color: rgba(68, 22, 233, 0.679);
+    font-size: 12px;
+    height: 34px;
+    line-height: 35px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#prevs,
+#nexts {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+    */
