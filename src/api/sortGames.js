@@ -2,7 +2,7 @@
 
 export async function sortGame ( leagueCode )
 {
-    const url = `https://d.livescore.in/x/feed/df_hh_4_${leagueCode}`;
+    const url = `https://api.webapps.com.ng/v2/sports/loadteam.php?50&x/feed/df_hh_4_${leagueCode}`;
 
     try {
         const response = await fetch( url, {

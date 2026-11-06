@@ -29,7 +29,7 @@ export async function getGames ( game, date )
 
     const dateIndex = dateMapping[date];
     const gameIndex = gameMapping[game];
-    const url = `https://d.livescore.in/x/feed/f_${gameIndex}_${dateIndex}_1_en_4`;
+    const url = `https://api.webapps.com.ng/v2/sports/livescore.php?50&x/feed/f_${gameIndex}_${dateIndex}_1_en_4`;
 
     const controller = new AbortController();
     const timeoutId = setTimeout( () => controller.abort(), 8000 );
