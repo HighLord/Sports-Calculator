@@ -57,3 +57,5 @@ html {
   justify-content: center;  
   min-height: 50px;
 }
+
+.grid-item.results { min-height: 0; overflow: hidden; }

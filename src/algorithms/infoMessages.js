@@ -15,6 +15,10 @@ export function getInfoMessage ( pageIndex, selectedValues, matchesMessage )
             return (matchesMessage || `Select booking amount for ${selectedValues.sportsTime}'s ${selectedValues.sportsType}`);
         case 4:
             return "Select the Max amount of odds to go for";
+        case 5:
+            return "Choose the market: winner, double chance or draws";
+        case 6:
+            return "Choose how predictions are made: goals, form, or both";
         default:
             return "Select a game from the wheel and click next";
     }

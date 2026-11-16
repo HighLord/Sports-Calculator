@@ -63,4 +63,13 @@ export const sportsOptions = ( function ()
     return matchoption;
 } )();
 
+export const sportsMethod = [
+    { value: 'mix', text: 'Goals + Form' },
+    { value: 'form', text: 'Form only' },
+    { value: 'goals', text: 'Goals only' }
+];
+
+// Sports that can end level, so Double Chance and Draws make sense.
+export const drawSports = ['football', 'icehockey', 'handball'];
+
 export default sportsType;
